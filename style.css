@@ -1,9 +1,10 @@
 .compass {
   text-align: right;
+  color: blue;
 }
 .container {
-  max-width: 50%;
-  padding: 50px;
+  max-width: 20px;
+  padding: 50%;
   position: fixed;
   left: 0%;
 }
