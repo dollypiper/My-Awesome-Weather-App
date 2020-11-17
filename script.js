@@ -49,6 +49,7 @@ function search(event) {
   defaultDisplay(city);
 }
 
+let form = document.querySelector("#form");
 form.addEventListener("submit", search);
 
 defaultDisplay("Lagos");
