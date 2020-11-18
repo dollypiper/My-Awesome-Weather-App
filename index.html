@@ -15,82 +15,84 @@
       src="https://kit.fontawesome.com/c619e4ab91.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="card">
         <div class="card-body">
-          <form id="form">
-            <div class="col-">
-              <input type="text" placeholder="Enter a city..."  id="enter-a-city" />
-              <input type="submit" value="Search" id = "search-box"/>
-              <input type="submit" value ="Current" id = "current-location"/>
+          <div class="row">
+            <div class="col">
+              <form id="form">
+                <input
+                  type="text"
+                  placeholder="Enter a city..."
+                  id="enter-a-city"
+                />
+                <input type="submit" value="Search" id="search-box" />
+                <input type="submit" value="Current" id="current-location" />
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
               <h2></h2>
               <h3></h3>
               <div id="description"></div>
-              
-              <h4><i class="fas fa-cloud"></i>
-                <span class="temp" id ="temp"></span>
-                <span> °C
-</span></h4>
-            <p>
-<div class="compass">
-               <div>
-                  Humidiy:<span id="humidity"></span>%
-                </div> 
-                 <div>Wind: <span id="wind"></span>km/h
-                   </div></div></p>
-<div class="row">
-    <div class="col">
-              <div>Tue</div></div>
-              
-            <div class="col">Wed</div>
-            <div class="col">Thurs</div>
-            <div class="col">Fri</div>
-            <div class="col">Sat</div>
-            
-<div class="col">Sun</div></div>
 
-         <div class="row">
-             <div class="col"><i class="fas fa-cloud-sun"></i></div>
-            <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
-            <div class="col"><i class="fas fa-sun"></i></div>
-            <div class="col"><i class="fas fa-cloud-sun"></i></div>
-            <div class="col"><i class="fas fa-cloud-sun"></i></div>
-            <div class="col"><i class="fas fa-cloud-sun"></i></div>
-         </div>  
-         
-         <div class="row">
-             <div class="col">
-                 35°c
-             </div>
-            <div class="col">
-                15°c
+              <h4>
+                <i class="fas fa-cloud"></i>
+                <span class="temp" id="temp"></span>
+                <span>°C</span>
+              </h4>
             </div>
+          </div>
+
+          <div class="row">
             <div class="col">
-                13°c
+              <div class="compass">
+                <div>Humidiy:<span id="humidity"></span>%</div>
+                <div>Wind: <span id="wind"></span>km/h</div>
+              </div>
             </div>
-            <div class="col">
-                23°c
+          </div>
+          <div class="row mt-4">
+            <div class="col-6 col-md-2 text-center">
+              <h6>Tue</h6>
+              <i class="fas fa-cloud-sun"></i>
+              <p>35°c</p>
             </div>
-            <div class="col">
-                22°c
+            <div class="col-6 col-md-2 text-center">
+              <h6>Wed</h6>
+              <i class="fas fa-cloud-showers-heavy"></i>
+              <p>15°c</p>
             </div>
-            <div class="col">
-                15°c
+            <div class="col-6 col-md-2 text-center">
+              <h6>Thurs</h6>
+              <i class="fas fa-sun"></i>
+              <p>13°c</p>
             </div>
-         </div>
-          </form>
+            <div class="col-6 col-md-2 text-center">
+              <h6>Fri</h6>
+              <i class="fas fa-cloud-sun"></i>
+              <p>23°c</p>
+            </div>
+            <div class="col-6 col-md-2 text-center">
+              <h6>Sat</h6>
+              <i class="fas fa-cloud-sun"></i>
+              <p>22°c</p>
+            </div>
+            <div class="col-6 col-md-2 text-center">
+              <h6>Sun</h6>
+              <i class="fas fa-cloud-sun"></i>
+              <p>15°c</p>
+            </div>
+          </div>
         </div>
       </div>
+      <p><a href="#">Open source</a> built by Ifedolapo ❤</p>
     </div>
-    
-    <br>
-    <div> <p>
-      <a href="http://https://github.com/dollypiper/My-Awesome-Weather-App"target= "_blank" class="open-source">
-        Open-source code</a> <span>by Ifedolapo ❤</span></p></div>
-      </div>
-        <script src="script.js"></script>
-    </body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
